@@ -124,13 +124,15 @@ body {
         margin-left: 8.47458%;
         margin-right: 8.47458%; }
         body .container footer .footer-container .footer-col {
+          color: #7b7b7b;
           width: 32.20339%;
           float: left;
           margin-right: 1.69492%; }
           body .container footer .footer-container .footer-col h2 {
             font-weight: 700;
-            font-size: 0.875em;
-            text-transform: uppercase; }
+            font-size: 1.125em;
+            text-transform: uppercase;
+            padding-bottom: 0.165em; }
           body .container footer .footer-container .footer-col img {
             max-height: 3.125em; }
         body .container footer .footer-container .footer-col:last-child {
