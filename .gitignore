@@ -1,2 +1,4 @@
 .sass-cache/*
 sass/*
+css/*.map
+css/reset.css

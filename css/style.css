@@ -73,7 +73,8 @@ body {
       float: left;
       margin-right: 1.69492%;
       margin-left: 8.47458%;
-      margin-right: 8.47458%; }
+      margin-right: 8.47458%;
+      padding-bottom: 2em; }
       body .container #structure header {
         width: 100%;
         float: left;
@@ -103,5 +104,35 @@ body {
           margin-left: 0;
           margin-right: 0;
           padding: 1em 0 1em 0; }
+    body .container footer {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      border: 0.125em;
+      border-style: solid none none none;
+      border-color: #eaeaea;
+      padding-top: 1.5em; }
+      body .container footer .footer-container {
+        width: 83.05085%;
+        float: left;
+        margin-right: 1.69492%;
+        margin-left: 8.47458%;
+        margin-right: 8.47458%; }
+        body .container footer .footer-container .footer-col {
+          width: 32.20339%;
+          float: left;
+          margin-right: 1.69492%; }
+          body .container footer .footer-container .footer-col h2 {
+            font-weight: 700;
+            font-size: 0.875em;
+            text-transform: uppercase; }
+          body .container footer .footer-container .footer-col img {
+            max-height: 3.125em; }
+        body .container footer .footer-container .footer-col:last-child {
+          width: 32.20339%;
+          float: right;
+          margin-right: 0;
+          text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
