@@ -1,0 +1,199 @@
+@import 'reset.scss';
+@import 'susy';
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic');
+$font-stack: 'Source Sans Pro', sans-serif;
+
+$susy: (
+	flow: ltr,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+	container: 60%,
+	container-position: center,
+	columns: 12,
+	gutters: 1/4,
+);
+
+$default-bg: #ffffff;
+$default-color: #000000;
+$default-border-color: #eaeaea;
+$secondary-color: #7b7b7b;
+$footer-color: #d3d3d3;
+$dark-blue: #627482;
+$light-blue: #d4d8dc;
+
+body {
+	font-family: $font-stack;
+	background: $default-bg;
+	color: $default-color;
+	padding-top: 1.25em;
+	a, a:visited {
+		color: $default-color;
+		text-decoration: none;
+	} 
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	.container {
+		@include container;
+		nav {
+			@include span(12 of 12);
+			border: 0.125em;
+			border-style: none none solid none;
+			border-color: $default-border-color;
+			padding-bottom: 1.5em;
+			.nav-bar {
+				@include span(last 7 wide);
+				text-align: right;
+			}
+			ul {
+				li {
+					display: inline;
+					text-transform: uppercase;
+					margin: 0 0.3125em 0 0.3125em;
+					font-size: 1.25em;
+					a, a:visited {
+						padding: 0.3125em;
+					}
+					a:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		
+		#structure {
+			@include span(10 of 12);
+			@include squish(1);
+			padding-bottom: 2em;
+			header {
+				@include span(12 of 12);
+				margin-top: 1.5em;
+				padding-bottom: 1em;
+				.image {
+					img {
+						margin-top: 2.6em;
+					}
+				}
+			}
+		
+			main {
+				#big {
+					@include span(first 7);
+					.content-area {
+						@include span(12 of 12);
+						padding: 1em 0 1em 0;
+					}
+				}
+				#small {
+					@include span(last 5);
+					.content-area {
+						@include span(12 of 12);
+						padding: 1em 0 1em 0;
+					}
+				}
+						
+			}
+		}
+		
+		footer {
+			@include span(12 of 12);
+			border: 0.125em;
+			border-style: solid none none none;
+			border-color: $default-border-color;
+			padding-top: 1.5em;
+			.footer-container {
+				@include span(10 of 12);
+				@include squish(1);
+				.footer-col {
+					color: $secondary-color;
+					@include span(first 4);
+					h2 {
+						font-weight: 700;
+						font-size: 1.125em;
+						text-transform: uppercase;
+						padding-bottom: 0.165em;
+					}				
+					img {
+						max-height: 3.125em;
+					}
+				}
+				.footer-col:last-child {
+					@include span(last 4);
+					text-align: right;
+				}
+			}	
+		}
+	}
+}
+@media screen and (max-width: 1520px) {
+body {
+	.container {
+		nav {
+			ul {
+				li {
+					margin: 0 0.1875em 0 0.1875em;
+					font-size: 1em;
+					a, a:visited {
+						padding: 0.1875em;
+					}
+				}
+			}
+		}
+	}
+}
+}
+@media screen and (max-width: 1100px) {
+body {
+	.container {
+		nav {
+			.nav-bar {
+				@include span(last 9 wide);
+			}
+			ul {
+				li {
+					a, a:visited {
+					}
+				}
+			}
+		}
+	
+		footer {
+			.footer-container {
+				.footer-col {
+					img {
+						max-height: 2.1875em;
+					}
+				}
+			}
+		}
+	}
+}
+}
+@media screen and (max-width: 870px) {
+body {
+	.container {
+		nav {
+			.nav-bar {
+				@include span(12 of 12 wide);
+			}
+			ul {
+				li {
+					a, a:visited {
+					}
+				}
+			}
+		}
+		footer {
+			.footer-container {
+				.footer-col {
+					img {
+						max-height: 1.875em;
+					}
+				}
+			}
+		}
+	}
+}
+}
