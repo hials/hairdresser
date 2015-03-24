@@ -102,7 +102,7 @@ body .container #structure header .image img {
     margin-top: 2.6em; }
 
 body .container #structure main #big {
-    width: 57.62712%;
+    width: 49.15254%;
     float: left;
     margin-right: 1.69492%; }
 
@@ -119,32 +119,40 @@ body .container #structure main #big .content-area table, th, td, caption {
     padding: .45em .90em;
 }
 
-body .container #structure main #big .content-area table{
+body .container #structure main table:nth-child(even)  {
     width: 100%;
+    margin-top: 4em;
 }
 
-body .container #structure main #big .content-area table tr:nth-child(even) {
+body .container #structure main table:nth-child(odd)  {
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+body .container #structure main  table tr:nth-child(even) {
     background-color: #fff;
 }
-body .container #structure main #big .content-area table tr:nth-child(odd) {
+body .container #structure main  table tr:nth-child(odd) {
     background-color: #eee;
 }
-body .container #structure main #big .content-area table td:nth-child(even) {
+body .container #structure main  table td:nth-child(even) {
     text-align: right;  
 }
 
-body .container #structure main #big .content-area table td:nth-child(odd) {
+body .container #structure main  table td:nth-child(odd) {
     text-align: left;
 }
 
-body .container #structure main #big .content-area table caption {
+body .container #structure main  table caption {
     text-transform: uppercase;
     font-size: 1.25em;
+    
 }
 
 
 body .container #structure main #small {
-    width: 40.67797%;
+    width: 49.15254%;
     float: right;
     margin-right: 0; }
 
