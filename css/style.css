@@ -116,30 +116,31 @@ body .container #structure main #big .content-area {
 body .container #structure main #big .content-area table, th, td, caption {
     border: 1px solid white;
     border-collapse: collapse;
-    padding: 1px;
-
+    padding: .45em .90em;
 }
 
-table{
+body .container #structure main #big .content-area table{
     width: 100%;
 }
 
-table tr:nth-child(even) {
+body .container #structure main #big .content-area table tr:nth-child(even) {
     background-color: #fff;
 }
-table tr:nth-child(odd) {
+body .container #structure main #big .content-area table tr:nth-child(odd) {
     background-color: #eee;
 }
-table td:nth-child(even) {
-    text-align: right;
-   
+body .container #structure main #big .content-area table td:nth-child(even) {
+    text-align: right;  
 }
 
-table td:nth-child(odd) {
+body .container #structure main #big .content-area table td:nth-child(odd) {
     text-align: left;
-  
 }
-    
+
+body .container #structure main #big .content-area table caption {
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
 
 
 body .container #structure main #small {
