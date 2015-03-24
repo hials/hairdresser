@@ -146,7 +146,7 @@ body .container #structure main  table td:nth-child(odd) {
 
 body .container #structure main  table caption {
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1em;
     
 }
 
