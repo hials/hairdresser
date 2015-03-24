@@ -113,6 +113,14 @@ body .container #structure main #big .content-area {
     margin-right: 0;
     padding: 1em 0 1em 0; }
 
+body .container #structure main #big .content-area table, th, td, caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1px;
+}
+    
+
+
 body .container #structure main #small {
     width: 40.67797%;
     float: right;
