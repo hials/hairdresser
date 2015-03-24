@@ -114,9 +114,30 @@ body .container #structure main #big .content-area {
     padding: 1em 0 1em 0; }
 
 body .container #structure main #big .content-area table, th, td, caption {
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
     padding: 1px;
+
+}
+
+table{
+    width: 100%;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+table tr:nth-child(odd) {
+    background-color: #eee;
+}
+table td:nth-child(even) {
+    text-align: right;
+   
+}
+
+table td:nth-child(odd) {
+    text-align: left;
+  
 }
     
 
