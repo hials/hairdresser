@@ -82,6 +82,12 @@ body .container nav ul li a, body .container nav ul li a:visited {
 body .container nav ul li a:hover {
     text-decoration: none; }
 
+body .container label {
+    display:block;
+    margin-top:1.5%;
+    letter-spacing:2px;
+}
+
 body .container #structure {
     width: 83.05085%;
     float: left;
