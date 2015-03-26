@@ -48,7 +48,7 @@ session_start();
                         <div class="content-area">
                           
                                 
-                                Fyll ut skjemaet nedenfor for å bestille time.
+                                Fyll ut skjemaet for å bestille time.
                                 Vi bekrefter timebestilling tilbake til deg så snart vi kan per epost.<br><br>
                                 
                                 </div>
