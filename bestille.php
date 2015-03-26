@@ -37,7 +37,7 @@ session_start();
                 <!-- START: Header -->
                 <header>
                     <div class="image">
-                        <img src="bilder/logoo.png" alt="">
+                        <a href="index.html"><img src="bilder/logoo.png" alt=""></a>
                     </div>
                 </header>
                 <!-- END -->
@@ -108,7 +108,7 @@ session_start();
                         <h2>Kontakt</h2>
                         <p>tlf. 555-zaxon<br>
                             mail: 
-                            <a href="mailto:zaxon@frior.no" target="_top">zaxon@frior.no</a> </p>
+                            <a href="mailto:zaxon@frisor.no" target="_top">zaxon@frisor.no</a> </p>
                     </div>
                     <div class="footer-col">
                         <img src="img/icons/face.png" alt="">
