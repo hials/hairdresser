@@ -49,7 +49,7 @@ session_start();
                           
                                 
                                 Fyll ut skjemaet nedenfor for å bestille time.
-                                Vi bekrefeter timebestilling tilbake til deg så snart vi kan per epost.<br><br>
+                                Vi bekrefter timebestilling tilbake til deg så snart vi kan per epost.<br><br>
                                 
                                 </div>
                                 </div> 
