@@ -76,10 +76,10 @@ session_start();
                                 <input name="telefon" placeholder="(+47) 123 45 678">
                                 
                                 <label>Dag og klokkeslett du ønsker timen: </label>
-                                <textarea name="time" placeholder="Type Here" required></textarea>
+                                <textarea name="time" placeholder="F.eks: Fredag, 27.03.15 kl 12." required></textarea>
                                 
                                 <label>Eventuell melding. </label>
-                                <textarea name="message" placeholder="Type Here"></textarea>
+                                <textarea name="message"></textarea>
             
                                 <input id="submit" name="submit" type="submit" value="Send Bestilling.">
         
