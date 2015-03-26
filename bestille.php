@@ -67,16 +67,16 @@ session_start();
                                 <form action="sendmail.php" method="post">
         
                                 <label>Navn: </label>
-                                <input name="navn" placeholder="Ditt navn">
+                                <input name="navn" placeholder="Ditt navn" required>
             
                                 <label>Epost:</label>
-                                <input name="email" type="email" placeholder="din@epost.her">
+                                <input name="email" type="email" placeholder="din@epost.her" required>
                                     
                                 <label>Telefon:</label>
                                 <input name="telefon" placeholder="(+47) 123 45 678">
                                 
                                 <label>Dag og klokkeslett du ønsker timen: </label>
-                                <textarea name="time" placeholder="Type Here"></textarea>
+                                <textarea name="time" placeholder="Type Here" required></textarea>
                                 
                                 <label>Eventuell melding. </label>
                                 <textarea name="message" placeholder="Type Here"></textarea>
