@@ -184,6 +184,14 @@ body .container #structure main #small {
     float: right;
     margin-right: 0; }
 
+body .container #structure main #small p#error {
+    color: darkred;
+    font-weight: 700;  }
+
+body .container #structure main #small p#info {
+    color: darkgreen;
+    font-weight: 700;  }
+
 body .container #structure main #small .content-area {
     width: 100%;
     float: left;

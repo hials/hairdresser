@@ -1,22 +1,22 @@
-
 <?php
 session_start();
 
-if (isset($_REQUEST['message'])) {
+if (isset($_REQUEST['navn'])) {
 
-	$to = "post@tonyand.re";
+	$to = "roger.kolseth@gmail.com";
 	$from = $_REQUEST['email'];
-	$subject = "TONYAND.RE: " . $_REQUEST['subject'];
-	$message = "Message from: " . $_REQUEST['name'] . " (" . $from . ")\n\n" . $_REQUEST['email'] . $_REQUEST['time'] . $_REQUEST['message'] . $_REQUEST['telefon']  ;
+    $navn = $_REQUEST['navn'];
+	$subject = "BESTILLING: " . $navn;
+	$message = "Navn: " . $_REQUEST['name'] . "\nEpost: " . $from . "\n Telefon: " . $_REQUEST['telefon'] . "Ønsker time: " . $_REQUEST['time'] . "\n\nEventuell melding:\n" . $_REQUEST['message'];
 
 	mail($to, "$subject", $message, "From:" . $from);
 
-	$_SESSION['info'] = "Thank you! Message is successfully sent.";
+	$_SESSION['info'] = "Tusen takk, " . $navn . ". Din time er bestillt.";
 
 } else {
 
-	$_SESSION['error'] = "Error: Message not sent.";
+	$_SESSION['error'] = "Feil! Din bestilling blei ikke gjennomført. Prøv igjen.";
 }
 
-header('Location: http://tonyand.re/portfolio/#contact');
+header('Location: bestille.php');
 ?>
